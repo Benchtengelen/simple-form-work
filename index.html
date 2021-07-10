@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Work</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <div class="title">
+       <h1>freeCodeCamp Survey Form</h1>
+       <p>Thank you for taking the time to help us improve the platform</p>
+    </div>
+    <br><br>
+
+    <div class="formbox">
+
+     <div class="formbox2"> 
+        <label for="name">Name</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter Your name"><br><br>
+
+        <label for="name">Email</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter Your Email"><br><br>
+
+        <label for="name">Age(optional)</label><br>
+        <input type="text" id="name" name="name" placeholder="Age"><br><br>
+
+        Which option best describes your current role? <br>
+         <select name="degree" id="degree" placeholder="Select current role"> 
+         <option value="student">Student</option>
+         <option value="job">Full Time Job</option>
+         <option value="learner">Full Time Learner</option>
+         <option value="notsay">Prefer not to say</option>
+         <option value="other">Other</option>
+        </select>
+
+         <br/><br/>
+        <div id="radio"> 
+         Would you recommend freeCodeCamp to a friend?<br>
+         <form><br>
+            <input type="radio" id="html" name="fav_language" value="Definitely">
+            <label for="html">Definitely</label><br>
+            <input type="radio" id="css" name="fav_language" value="Maybe">
+            <label for="css">Maybe</label><br>
+            <input type="radio" id="javascript" name="fav_language" value="Not sure">
+            <label for="javascript">Not sure</label>
+          </form>
+        </div>
+        
+        <br><br><br><br>
+
+        What is your favorite feature of freeCodeCamp? <br>
+        <select name="degree" id="degreetwo" placeholder="Select current role"> 
+        <option value="challenges">Challenges</option>
+        <option value="projects">Projects</option>
+        <option value="community">Community</option>
+        <option value="open">Open Source</option>
+        </select>
+
+        <br><br>
+
+          <div class="checkbox"> 
+          What would you like to see improved? (Check all that apply)<br><br>
+          <form>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="frond-end">
+            <label for="vehicle1"> Front-end Projects</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="back-end">
+            <label for="vehicle2"> Back-end Projects</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="data">
+            <label for="vehicle3"> Data Visualization</label><br>
+
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="challenges">
+            <label for="vehicle1"> Challenges</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="open-source">
+            <label for="vehicle2"> Open Source Community</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="help">
+            <label for="vehicle3"> Gitter help rooms</label><br>
+
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="videos">
+            <label for="vehicle1"> Videos</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="meetups">
+            <label for="vehicle2"> City Meetups</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="wiki">
+            <label for="vehicle3"> Wiki</label><br>
+
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="forum">
+            <label for="vehicle1"> Forum</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="courses">
+            <label for="vehicle2"> Additional Courses</label><br>
+           </form>
+        </div>
+
+        <br><br> 
+
+        Any comments or suggestions?<br><br>
+        <textarea name="message" id="message" rows="10" cols="80" placeholder="Enter your commit here... "></textarea> <br/>
+        <input type="submit" value="submit" id="button" />
+
+
+
+           </div>
+         </div>
+       </div>
+
+
+</body>
+</html>
